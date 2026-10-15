@@ -7,7 +7,7 @@ Objective
 To learn how to identify open ports and services on a host using Nmap.
 
 Tool Used
-- Nmap 7.99
+- Nmap 7.991
 
 Lab Environment
 - Operating System: Windows
