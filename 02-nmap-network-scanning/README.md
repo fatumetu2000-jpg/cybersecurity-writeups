@@ -36,3 +36,21 @@ What I Learned
 - How to interpret basic Nmap scan results.
 Disclaimer
 This scan was performed on my own local machine for educational purposes.
+  Step 3: Save your changes
+
+1. Click **Commit changes**.
+2. Keep the commit message GitHub suggests, or enter: `Document Nmap service detection results`.
+3. Select **Commit changes** again.
+
+---
+
+4. What comes next?
+
+After saving, we'll move on to another practical exercise: 
+learning how to identify which ports are open on a computer and how to interpret the results.
+
+You're building a portfolio that shows not only the tools you've used, but also your ability to interpret their findings and explain security implications.
+
+For now, let's finish updating your README.
+
+Tell me when you've clicked the pencil icon and opened the editing screen. I'll guide you through the next step. 💻
