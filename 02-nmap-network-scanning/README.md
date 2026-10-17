@@ -36,7 +36,7 @@ What I Learned
 - How to interpret basic Nmap scan results.
 Disclaimer
 This scan was performed on my own local machine for educational purposes.
-  Step 3: Save your changes
+Step 3: Save your changes
 
 1. Click **Commit changes**.
 2. Keep the commit message GitHub suggests, or enter: `Document Nmap service detection results`.
