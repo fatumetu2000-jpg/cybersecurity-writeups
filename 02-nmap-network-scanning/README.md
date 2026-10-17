@@ -12,8 +12,7 @@ Tool Used
 Lab Environment
 - Operating System: Windows
 - Target: Localhost (127.0.0.1)
-
-Scan Command
+- Scan Command
 nmap 127.0.0.1
 
 Scan Results
@@ -54,3 +53,24 @@ You're building a portfolio that shows not only the tools you've used, but also 
 For now, let's finish updating your README.
 
 Tell me when you've clicked the pencil icon and opened the editing screen. I'll guide you through the next step. 💻
+Service Version Detection
+
+Scan Command
+```bash
+nmap -sV 127.0.0.1
+Scan Results
+The scan identified these open TCP ports:
+| Port | State | Service |
+|------|-------|---------|
+| 135/tcp | Open | MSRPC |
+| 445/tcp | Open | Microsoft-DS |
+Analysis
+The -sV option enables service version detection. It attempts to identify services running on open ports.
+What I Learned
+How to perform service version detection.
+How to identify services running on open ports.
+How to interpret Nmap scan results.
+
+Important Note
+
+An open port does not automatically indicate a security vulnerability. Its risk depends on the service running, its configuration, and whether it is exposed to untrusted networks.
